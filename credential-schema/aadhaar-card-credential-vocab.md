@@ -1,47 +1,87 @@
-# firstName
+# uID
 
-First Name of the person as mentioned in AadhaarCard
-
-```
-  "firstName": Neily
-```
-
-# middleName
-
-Middle Name of the person as mentioned in AadhaarCard (Can be empty)
+Aadhaar Card Number 
 
 ```
-  "middleName": Nitiny
+  "UID": 123412341234
 ```
 
-# lastName
+# name
 
-Last Name of the person as mentioned in AadhaarCard (Can be empty)
-
-```
-  "lastName": Mukeshy
-```
-
-# gender
-
-Gender of the person as mentioned in AadhaarCard  (M or F)
+Name as mentioned in AadhaarCard 
 
 ```
-  "gender": M
+  "name": Alice W Bob
 ```
 
 # dateOfBirth
 
-Date of Birth of the person as mentioned in AadhaarCard eg. if 01-01-1999 then 01011999
+Date of Birth as mentioned in AadhaarCard 
 
 ```
-  "dateOfBirth": 01011999
+  "dateOfBirth": 19990131
 ```
 
-# aadhaarNumber
+# gender
 
-Aadhaar Number of the person as mentioned in AadhaarCard
+Gender as mentioned in AadhaarCard  Male - 1, Female - 2, Transgender - 3
 
 ```
-  "aadhaarNumber": 123412341234
+  "gender": 1
+```
+
+# addressHouseID
+
+House Identifier of Address as mentioned in AadhaarCard (if present)
+
+```
+  "addressHouseID": HouseName
+```
+
+# addressStreetID
+
+Street Identifier of Address as mentioned in AadhaarCard (if present)
+
+```
+  "addressStreetID": StreetName
+```
+
+# addressVTCID
+
+Village/Town/City Identifier of Address as mentioned in AadhaarCard (if present)
+
+```
+  "addressVTCID": TownName
+```
+
+# addressDistrictID
+
+District Identifier of Address as mentioned in AadhaarCard 
+
+```
+  "addressDistrictID": DistrictName
+```
+
+# addressStateID
+
+State Identifier of Address as mentioned in AadhaarCard (if present)
+
+```
+  "addressStateID": StateName
+```
+
+# addressCountryID
+
+Country Identifier of Address as mentioned in AadhaarCard (if present)
+
+```
+  "addressCountryID": CountryName
+```
+
+# addressPincode
+
+Pincode of Address as mentioned in AadhaarCard
+
+```
+  "addressPincode": 123456
 ```
