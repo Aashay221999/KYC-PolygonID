@@ -53,3 +53,11 @@ Course Name for given user wrt the certificate issued (column name - ?) from moo
 ```
   "courseName": Programming Beginners
 ```
+
+# studentName
+
+Student Name for given user wrt the certificate issued (column name - ?) from moodle.? table
+
+```
+  "courseName": John Doe
+```
